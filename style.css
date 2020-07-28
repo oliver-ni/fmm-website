@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+html {
+    font-size: 18px;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+    font-family: Lato, BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto,
+        Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+        Helvetica, Arial, sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+}
+
+@media screen and (min-width: 1024px) {
+    #navbar {
+        height: 64px;
+    }
+    .navbar-item {
+        padding-left: 1.3em;
+        padding-right: 1.3em;
+    }
+}
+
+#banner {
+    background-image: linear-gradient(
+            135deg,
+            rgba(255, 235, 235, 0.8),
+            rgba(255, 255, 255, 0.9)
+        ),
+        url("bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#register-button {
+    min-width: 120px;
+}
+
+#logo {
+    width: 80%;
+    max-width: 500px;
+}
